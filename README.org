@@ -1,0 +1,13 @@
+#+SETUPFILE: ~/.emacs.d/org-templates/projects.org
+#+EXPORT_FILE_NAME: index
+#+OPTIONS: toc:2
+#+TITLE: Tucana
+
+Tucana is a program to generate puzzles like Algot's Wordsearch.
+
+- Website: https://andinus.nand.sh/tucana
+- Source: https://git.tilde.institute/andinus/tucana
+- GitHub: https://github.com/andinus/tucana
+
+It's a work in progress. Currently it uses a very naive approach of just
+walking around the grid & chosing a random neighbor.
