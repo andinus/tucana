@@ -1,0 +1,22 @@
+{
+    "name" : "tucana",
+    "auth" : "github:andinus",
+    "version" : "0.1.0",
+    "description" : "Tucana is a program to generate puzzles like Algot's Wordsearch",
+    "authors" : [ "Andinus <andinus@nand.sh>" ],
+    "license" : "ISC",
+    "perl" : "6.d",
+    "provides" : {
+        "Tucana::CLI" : "lib/Tucana/CLI.rakumod"
+    },
+    "depends" : [
+        "Octans::CLI:auth<github:andinus>"
+    ],
+    "build-depends" : [ ],
+    "test-depends" : [ ],
+    "resources" : [ ],
+    "tags": [
+      "Tucana", "WordPlay"
+    ],
+    "source-url" : "https://git.tilde.institute/andinus/tucana.git"
+}
